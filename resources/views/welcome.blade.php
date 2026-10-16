@@ -95,6 +95,13 @@
                             <span class="radio-mark"></span>
                         </label>
                     </fieldset>
+
+                    <div class="form-footer">
+                        <button type="submit">
+                            <span>Complete registration</span>
+                            <span class="button-arrow" aria-hidden="true">↗</span>
+                        </button>
+                    </div>
                 </form>
 
                 <p class="fine-print">By registering, you agree to our event terms and privacy policy.</p>
