@@ -121,7 +121,7 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: 22
         source: "vendor.tar.gz"
-        target: "/home/hgalih-arielnoah/htdocs/arielnoah.hgalih.my.id"
+        target: "/home/jchristopher-21pilots/htdocs/21pilots.jchristopher.my.id"
 
     - name: Deploy via SSH
       uses: appleboy/ssh-action@v1.2.5
@@ -131,7 +131,7 @@ jobs:
         password: ${{ secrets.SSH_PASSWORD }}
         port: 22
         script: |
-          cd /home/hgalih-arielnoah/htdocs/arielnoah.hgalih.my.id
+          cd /home/jchristopher-21pilots/htdocs/21pilots.jchristopher.my.id
           git pull origin main
           rm -rf vendor
           tar -xzf vendor.tar.gz
